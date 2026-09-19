@@ -1,12 +1,19 @@
 name: Legacy Redirects
 slug: legacy-redirects
 type: plugin
-version: 1.0.0
+version: 0.1.0
 description: Apply configurable legacy route maps, wildcards and query redirects.
 icon: random
-author: { name: Void Labs }
+author:
+  name: Void Labs
+  url: https://github.com/voidlabs
+homepage: https://github.com/voidlabs/grav-plugin-legacy-redirects
+bugs: https://github.com/voidlabs/grav-plugin-legacy-redirects/issues
+keywords: redirects, migration, drupal, wordpress, grav, plugin
 license: MIT
 compatibility: { grav: ['2.0'] }
+dependencies:
+  - { name: grav, version: '>=2.0.0' }
 form:
   validation: strict
   fields:

@@ -6,7 +6,7 @@
 3. Run `composer validate --strict`, `composer check` and `git diff --check`.
 4. Install the plugin in a clean Grav 2 site and verify the configuration and
    redirect cases listed in `AGENTS.md`.
-5. Commit the release, create an annotated tag such as `v1.0.0`, and push the
+5. Commit the release, create an annotated tag such as `0.1.0`, and push the
    tag to the public repository.
 6. Create the corresponding GitHub release using the changelog entry.
 
