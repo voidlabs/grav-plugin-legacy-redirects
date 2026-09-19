@@ -1,0 +1,44 @@
+{
+    "name": "voidlabs/grav-plugin-legacy-redirects",
+    "type": "grav-plugin",
+    "description": "Literal, wildcard and explicit-regex legacy redirects for Grav 2.",
+    "keywords": [
+        "grav",
+        "plugin",
+        "redirects",
+        "migration",
+        "drupal",
+        "wordpress"
+    ],
+    "homepage": "https://github.com/voidlabs/grav-plugin-legacy-redirects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Void Labs",
+            "homepage": "https://github.com/voidlabs"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/voidlabs/grav-plugin-legacy-redirects/issues"
+    },
+    "require": {
+        "php": "^8.3"
+    },
+    "autoload": {
+        "classmap": [
+            "legacy-redirects.php"
+        ]
+    },
+    "scripts": {
+        "lint": "@php -l legacy-redirects.php",
+        "test": "@php tests/run.php",
+        "check": [
+            "@lint",
+            "@test"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

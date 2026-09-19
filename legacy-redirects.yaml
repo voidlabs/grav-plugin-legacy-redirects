@@ -1,0 +1,12 @@
+enabled: false
+map_file: ''
+redirect_config: ''
+regex_config: ''
+wildcards_config: ''
+pagination:
+  enabled: false
+  parameter: page
+  zero_based: false
+  paths: []
+  path_config_values: []
+  aliases: {}

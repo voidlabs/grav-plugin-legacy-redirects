@@ -1,0 +1,18 @@
+name: Legacy Redirects
+slug: legacy-redirects
+type: plugin
+version: 1.0.0
+description: Apply configurable legacy route maps, wildcards and query redirects.
+icon: random
+author: { name: Void Labs }
+license: MIT
+compatibility: { grav: ['2.0'] }
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      default: 0
+      options: { 1: Enabled, 0: Disabled }
+      validate: { type: bool }
